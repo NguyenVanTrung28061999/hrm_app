@@ -40,4 +40,5 @@ const Map<String, String> vi = {
   "confirmed": "Đã xác nhận",
   "confirm": "Xác nhận",
   "character": "Ký tự",
+  "profile": "Cá nhân"
 };

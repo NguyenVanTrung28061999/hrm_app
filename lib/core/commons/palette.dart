@@ -38,7 +38,8 @@ class Palette {
   static const Color lableColor = Color(0xff707070);
   static const Color secondaryColor = Color(0xfff35800);
   static const Color thirdColor = Color(0xff707070);
-  static const Color scaffold = Color(0xFFF0F2F5);
+  static const Color scaffold = Colors.white;
+  static const Color bgWhiteGray = Color(0xFFF0F2F5);
   static const Color goldColor = Color(0xffa78656);
   static const Color headStickyColor = Color(0xFFBAD5E4);
 

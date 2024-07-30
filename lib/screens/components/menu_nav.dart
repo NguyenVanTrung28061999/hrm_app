@@ -1,4 +1,5 @@
-import 'package:app_hrm/screens/components/home/home_component.dart';
+import 'package:app_hrm/screens/home/components/home_component.dart';
+import 'package:app_hrm/screens/profile/profile_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:persistent_bottom_nav_bar_v2/persistent_bottom_nav_bar_v2.dart';
 
@@ -27,8 +28,8 @@ class _MenuNavState extends State<MenuNav> {
             color: Colors.blue,
           ),
           item: ItemConfig(
-            icon: const Icon(Icons.message),
-            title: "Messages",
+            icon: const Icon(Icons.assignment_turned_in_sharp),
+            title: "Attendance",
           ),
         ),
         PersistentTabConfig(
@@ -44,7 +45,7 @@ class _MenuNavState extends State<MenuNav> {
         PersistentTabConfig(
           screen: Container(
             height: MediaQuery.of(context).size.height,
-            color: Colors.yellow,
+            child: const ProfileScreen(),
           ),
           item: ItemConfig(
             icon: const Icon(Icons.person_2_rounded),

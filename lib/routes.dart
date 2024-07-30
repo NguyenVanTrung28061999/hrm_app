@@ -1,4 +1,4 @@
-import 'package:app_hrm/screens/home_screen.dart';
+import 'package:app_hrm/screens/home/home_screen.dart';
 import 'package:app_hrm/screens/login/login_screen.dart';
 import 'package:app_hrm/screens/splash/splash_screen.dart';
 import 'package:get/get.dart';

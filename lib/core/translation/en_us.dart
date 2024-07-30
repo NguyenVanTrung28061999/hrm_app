@@ -40,4 +40,5 @@ const Map<String, String> en = {
   "confirmed": "Confirmed",
   "confirm": "Confirm",
   "character": "Character",
+  "profile": "Profile"
 };
